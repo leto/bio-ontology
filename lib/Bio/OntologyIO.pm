@@ -24,6 +24,9 @@
 # MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 #
 
+our $VERSION = '0.01';
+$VERSION = eval $VERSION;
+
 # POD documentation - main docs before the code
 
 =head1 NAME
