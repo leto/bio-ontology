@@ -7,6 +7,7 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Jonathan Leto <jonathan@leto.net>',
     dist_version_from   => 'lib/Bio/Ontology.pm',
+    recursive_test_files => 1,
     build_requires => {
         'Test::More' => 0,
     },
