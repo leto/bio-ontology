@@ -10,6 +10,8 @@
 #
 # You may distribute this module under the same terms as perl itself
 
+our $VERSION = '0.01';
+$VERSION = eval $VERSION;
 
 =head1 NAME
 
